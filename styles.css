@@ -7,7 +7,7 @@
   list-style-type: none;
 }
 body {
-  background: black;
+  background: green;
   color: white;
   text-align: center;
   font-family: "font-1", cursive;
@@ -19,7 +19,6 @@ h1 {
 }
 input {
   border: none;
-  border-radius: 25px 25px 0 0;
   outline: none;
   text-align: center;
   font-size: 1.2rem;
@@ -34,7 +33,6 @@ input::placeholder {
   font-size: 1.2rem;
 }
 input[type="submit"] {
-  border-radius: 0 0 25px 25px;
   background: rgb(177, 176, 176);
   transition: 0.3s ease;
   cursor: pointer;
@@ -63,7 +61,6 @@ ul {
 li {
   max-width: 400px;
   border: 2px solid rgb(206, 206, 206);
-  border-radius: 10px;
   padding: 20px;
   margin: 10px;
 }
